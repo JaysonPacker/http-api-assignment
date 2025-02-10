@@ -20,9 +20,7 @@
   
           //Grab the content section from the HTML so we can put things on the screen.
           const content = document.querySelector('#content');
-          //Add a horizontal rule.
-          content.appendChild(document.createElement('hr'));
-  
+          content.innerHTML = '';
           //Create some dom elements to display later
           const h1 = document.createElement('h1');
           const p = document.createElement('p');
