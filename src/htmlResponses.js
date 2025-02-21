@@ -14,7 +14,7 @@ const getIndex = (request, response) => {
 };
 
 const getCSS = (request, response) => {
-  getPage(request, response, css, 'text/html');
+  getPage(request, response, css, 'text/css');
 };
 
 module.exports = {
